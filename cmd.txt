@@ -1,0 +1,6 @@
+Pesquisar um ping:
+
+ping www.google.com
+
+ping -n 6 www.google.com
+
