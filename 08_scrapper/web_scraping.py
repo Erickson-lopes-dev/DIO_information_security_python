@@ -13,7 +13,15 @@ soup = BeautifulSoup(site, 'html.parser')
 
 temperatura = soup.find("span", class_="temperature _margin-l-5 -font-13")
 
-print(temperatura.string)
 print(temperatura.text)
+
+print(soup.a)
+
+for item in soup.find_all('span'):
+    print(item.string)
+
+
+# SITE NAO ESTA MAIS IMPRIMINDO O TEMPO
+
 
 
